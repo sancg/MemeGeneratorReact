@@ -1,0 +1,30 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  height: 35px;
+  min-width: 250px;
+  text-indent: 1rem;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  height: 2.5em;
+  grid-column: span 2;
+  background: linear-gradient(
+    to right,
+    rgba(103, 34, 128, 1),
+    rgba(166, 38, 211, 1)
+  );
+  color: white;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  cursor: pointer;
+}

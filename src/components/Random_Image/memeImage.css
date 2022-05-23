@@ -1,0 +1,35 @@
+figure {
+  margin: 2rem 0;
+}
+
+figure > img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.meme {
+  position: relative;
+  font-family: Impact;
+}
+
+.meme__text {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  -webkit-text-stroke: 3px black;
+}
+
+.meme__top__text {
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.meme__bottom__text {
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
